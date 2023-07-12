@@ -94,3 +94,94 @@
     color: white;
     cursor: pointer;
 }
+.box{
+    width: 230px;
+    height: 310px;
+    box-shadow: 4px 4px 15px 10px grey;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.icon{
+     width: 70px;
+     padding: 10px;
+}
+
+.service-button{
+    padding: 10px 20px;
+    background-color: gray;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.service-1{
+    padding: 10px;
+    font-size: 30px;
+}
+.service-description{
+    padding: 10px;
+    
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.service-title{
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.service-container{
+    background-image: url("./images/background.png"), linear-gradient(45deg,rgb(8, 8, 8),rgb(67, 67, 67));
+    color: white;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.useful-links{
+    list-style:none ;
+    
+    
+}
+.support{
+    list-style:none ;
+}
+
+.footer-container{
+    background-image: url("./images/pngwing.com.png"), linear-gradient(40deg, rgb(42, 41, 41), rgb(64, 2, 2));
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    margin-right: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.small{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding-top: 2%;
+}
+.footer-logo{
+    width: 200px;
+}
+.useful{
+    padding: 10px;
+}
+.supports{
+    padding: 10px;
+}
+.contacts{
+    padding: 10px;
+}
+.foot-description{
+    padding: 10px;
+}
