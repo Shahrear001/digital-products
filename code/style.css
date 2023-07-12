@@ -4,7 +4,7 @@
 }
 
 .menu-container{
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(63, 63, 63);
     padding: 20px;
     color: white;
     list-style: none;
@@ -20,6 +20,7 @@
 
 .menus{
     display: flex;
+    list-style: none;
 }
 
 .item{
@@ -41,8 +42,10 @@
     height: 100vh;
     align-items: center;
     color: white;
-    background-image: url("./images/background.png"), linear-gradient(45deg,rgb(9, 9, 9),rgb(56, 56, 56));
-
+    background-image: url("./images/background.png"), linear-gradient(45deg,rgb(9, 9, 9),rgb(46, 46, 46));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .title{
@@ -61,4 +64,33 @@
      border: none;
      cursor: pointer;
      font-size: 15px;
+}
+
+.about-logo{
+    width: 300px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 50vh;
+}
+.about-title{
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.about-first{
+    margin: 15px;
+}
+.about-second{
+    margin: 15px;
+    
+}
+.about-button{
+    margin: 15px;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
